@@ -1,2 +1,2 @@
 # Token Bucket Filter
-Emulation of a toket bucket filtering system using a linked list of packets. 
+Emulation of a token bucket filtering system using a linked list of packets. The multi-threaded program simulates a traffic shaper that uses a token bucket filter to control the flow of packet transmission. Arriving packets from our input file are placed in a wait queue and sent to the server queue when there are enough tokens in the token bucket for the arriving packets. Two servers are simultaneously run to process the packets in the server queue. Results and statistics of the runs are subsequently outputted. 
